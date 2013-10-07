@@ -1,6 +1,6 @@
 
-var bookOne = ???;
-var bookTwo = ???;
+var bookOne = new Book({title : "Hobbit", author : "JR Tolken", price : "100"}) ;
+var bookTwo = new Book({title : "LOTR", author : "JR Tolken", price : "99"}) ;
 
 var books = [bookOne, bookTwo];
 

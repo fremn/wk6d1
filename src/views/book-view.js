@@ -4,6 +4,7 @@
   var bookTemplate = _.template(bookTemplateHtml);
 
   window.BookView = Backbone.View.extend({
+    className: "book",
     buy: function () {
       // TODO
     },
