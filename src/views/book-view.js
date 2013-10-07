@@ -6,12 +6,15 @@
   window.BookView = Backbone.View.extend({
     className: "book",
     buy: function () {
-      // TODO
+      console.log('Listening Correctly!')
     },
     render: function () {
       var newBookHtml = bookTemplate( this.model.toJSON() );
       $(this.el).html(newBookHtml);
-    }
+    },
+    events: {
+      'click .buy': 'buy'
+    },
   });
 
 })();
